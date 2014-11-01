@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/show'
+  get 'users/show/:username' => "users#show"
 
   get 'user/list'
   # The priority is based upon order of creation: first created -> highest priority.
