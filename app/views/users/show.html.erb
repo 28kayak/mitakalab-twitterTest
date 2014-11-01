@@ -1,6 +1,6 @@
-<h1>Ryo Suzuki</h1>
-<p>ryoopan</p>
+<h1><%= @user[:name] %></h1>
+<p><%= @user[:username] %></p>
 <ul>
-  <li>Location:Kanagawa, Japan </li>
-  <li>About: Hello, I am Ryo</li>
+  <li>Location: <%= @user[:location] %></li>
+  <li>About: <%= @user[:about]%> </li>
 </ul>
